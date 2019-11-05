@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-LightItalic-webfont.woff') format('woff');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00222F;
+}
+
+.sfondo {
+  background-image: url(sunset2k.jpeg);
+  background-repeat: no-repeat;
+  padding-bottom: 11%;
+  background-size: 100% 94%;
+}
+
+.nome {
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+.nome h1 {
+  padding-top: 12px;
+  color: #d6dee4;
+}
+header {
+  background-image: linear-gradient(to right, #a40606 , #d98324 );
+  height: 70px;
+  opacity: 1.00;
+}
+.previsione {
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 4%;
+  padding-top: 3%;
+  width: 50%;
+  min-width: 300px;
+  min-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+  background-color: #fd5e53;
+  opacity: 0.65;
+}
+.weatherResponse {
+  color: #d6dee4;
+  font-family: Roboto;
+  font-weight: bold;
+  height: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#cityName {
+  border-color: #e0e9ef;
+  width: 40%;
+  padding: 7px 7px 7px 7px;
+  font-family: Roboto;
+  font-weight: bold;
+  background-color: #e0e9ef;
+  color: #6a7e85;
+  border-radius: 3px;
+    border-style: solid;
+}
+.previsione button {
+  padding: 7px 7px 7px 7px;
+  font-weight: bold;
+  font-family: Roboto;
+  border-radius: 3px;
+  background-color: #fd5e53;
+  color: #e0e9ef;
+  border-style: solid;
+}
+.previsione button:active,
+.previsione button:hover {
+  background-color: #ffb288;
+}
+#icon {
+  height: 1px;
+}
+#icon img {
+  border-radius: 50%;
+  position: relative;
+  top: 25px;
+  width: 18%;
+  min-width: 80px;
+  max-width: 95px;
+
+}
+#out {
+  height: 1px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #d6dee4;
+}
+footer {
+  color: #d6dee4;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #00222F;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+footer a:link,
+footer a:visited,
+footer a:active {
+  color: #f4f8f3;
+  text-decoration: none;
+  font-style: italic;
+}
+footer a:hover {
+  font-weight: bold;
+  font-style: normal;
+}
+#prova {
+  font-size: 0.8em;
+  width: 25%;
+}
